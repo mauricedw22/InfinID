@@ -1,5 +1,5 @@
-<img src="./infinID-logo.jpg" style="text-align:center" />
-<div align="center">
+<img src="./infinID-logo.jpg" />
+
 <h1>InfinID Web App and SMS Chatbot </h1>
 <h3> For identification retrieval and sending money worldwide via text message</h3>
 
@@ -7,8 +7,7 @@
 <p>InfinID gives users the ability to retrieve user-uploaded images of their identification documents from decentralized object store, SkyNet. They may also send XLM on the live Stellar Lumens network after 
 creating a user profile on the web app. Once a user creates profile with their phone number, a Stellar address is generated and can be used for receiving XLM, sending XLM, and checking XLM balance.
 Now sending money and getting your id can be as easy as texting "Send money", "Check balance", or "Get id" to an automated SMS chatbot! </p>
-
-</div><br>
+<br>
 
 # Getting Started
 
