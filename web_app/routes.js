@@ -4,10 +4,8 @@ const { SkynetClient } = require('@nebulous/skynet');
 
 
 module.exports = function(app, passport){
-    
-  // var uri = process.env.MONGODB_URI || 'mongodb://localhost/walkercoin';
 
-  var uri = 'mongodb://localhost/infinid';  // 'mongodb+srv://mauricedw22:dataMan@cluster1.slfse.mongodb.net/infinID?retryWrites=true&w=majority'
+  var uri = 'your-mongodb-uri';
 
   var ObjectId = require('mongojs').ObjectID;
   
