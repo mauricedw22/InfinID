@@ -9,7 +9,6 @@ module.exports = function(passport){
 	const server = new StellarSdk.Server('https://horizon.stellar.org');
 	StellarSdk.Network.usePublicNetwork();
 
-	//GD7KW42SLGQQY2V6YTLKTFIN5Q4VEXUBX3M3ASTOOZQFIUFVCNKPFNBR
   const destination = StellarSdk.Keypair.random()
 
   passport.serializeUser(function(user, done){
@@ -54,12 +53,7 @@ module.exports = function(passport){
 					var public = destination.publicKey();
 					var secret = destination.secret();
 
-					//var algorithm = 'aes256';
 					var withdrawPassword = req.body.withdrawPassword;
-
-					//var key = crypto.createCipher(algorithm, withdrawPassword);
-					//var str = key.update(secret, 'utf8', 'hex') + key.final('hex');
-					//console.log(str); 
 
 					var newUser = new User();
 					newUser.local.phone = req.body.phone;
