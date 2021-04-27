@@ -1,5 +1,5 @@
 
 module.exports = {
 
-   'url' : 'mongodb://localhost/infinid'
+   'url' : 'your-mongodb-uri'
 };
