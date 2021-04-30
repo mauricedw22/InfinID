@@ -18,3 +18,17 @@ Now sending money and getting your id can be as easy as texting "Send money", "C
 <p> After starting MongoDB locally, launch the node.js server with the following: </p><BR>
 
 <code> node server </code><BR><BR>
+  
+# Setting up Signalwire
+
+<p><a href="https://signalwire.com/resources/guides/messaging">Signalwire SMS start up guide</a></p>
+
+
+# Installing Flask
+
+<p><code>pip install flask</code></p>
+
+# Starting the Flask Server
+
+<p><code>export FLASK_APP=python_sms_flask_backend.py</code></p>
+<p><code>flask run</code></p>
